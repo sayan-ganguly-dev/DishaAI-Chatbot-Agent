@@ -8,9 +8,9 @@ BASE_URL = "http://localhost:8000"
 
 st.set_page_config(layout="wide")
 
-st.title("Ai 🤖")
+st.title("Disha Ai 🤖")
 
-# ------------------ Helpers ------------------
+# ------------------ Helpers ---------------
 
 def new_thread_id():
     return f"thread-{uuid.uuid4().hex[:8]}"
